@@ -4,7 +4,6 @@ namespace StudentManagementSystem
 {
     class Student
     {
-        // Private Data Members
         private string name;
         private int age;
         private double marks;
@@ -14,7 +13,6 @@ namespace StudentManagementSystem
         private double scholarship;
         private double finalFee;
 
-        // Constructor
         public Student(string name, int age, double marks)
         {
             this.name = name;
@@ -22,7 +20,6 @@ namespace StudentManagementSystem
             this.marks = marks;
         }
 
-        // Method to process admission
         public void Admission()
         {
             if (marks < 60)
@@ -93,7 +90,6 @@ namespace StudentManagementSystem
             Display();
         }
 
-        // Method to Display Details
         public void Display()
         {
             Console.WriteLine("\n=========== ADMISSION DETAILS ===========");
